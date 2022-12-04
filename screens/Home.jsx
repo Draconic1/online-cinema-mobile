@@ -13,7 +13,7 @@ export default function Home({ navigation }) {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const {data} = await axios.get(`http://192.168.3.13:8080/api/movies/`);
+                const {data} = await axios.get(`http://ip_компа:8080/api/movies/`);
                 console.log(data);
 
                 dispatch(loadMovies(data));
