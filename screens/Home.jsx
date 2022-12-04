@@ -4,7 +4,6 @@ import axios from "axios";
 import MovieCard from "../components/MovieCard";
 import {loadMovies} from "../components/reducerSlice";
 import {useDispatch, useSelector} from "react-redux";
-import ip from "../components/ip"
 
 export default function Home({ navigation }) {
     const movies = useSelector(state => state.toolkit.movies);
