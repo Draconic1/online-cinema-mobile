@@ -1,4 +1,4 @@
-# A mobile application for booking cinema tickets  
+# A mobile application for online-cinema  
   
 Here is the web-application: <a href="https://github.com/Draconic1/oline-cinema" target="_blank" rel="noreferrer">Online-cinema</a>  
 
